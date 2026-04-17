@@ -37,7 +37,6 @@ const Main = () => {
             <span className="text-gray-300"> K (MBBS, CCDM, AFIH)</span>
           </p>
 
-          {/* Buttons */}
           <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
             <a
               href="tel:+919876543210"
@@ -50,13 +49,12 @@ const Main = () => {
               href="https://wa.me/917022077342"
               target="_blank"
               rel="noopener noreferrer"
-              className="border w-[300px] border-green-400 text-green-400 hover:bg-green-400 hover:text-black px-6 py-3 rounded-lg font-medium transition"
+              className="border w-75 border-green-400 text-green-400 hover:bg-green-400 hover:text-black px-6 py-3 rounded-lg font-medium transition"
             >
               WhatsApp
             </a>
           </div>
 
-          {/* TIMING BUTTON INSIDE HERO ✅ */}
           <div className="flex flex-col items-center gap-4 w-full">
             <button
               onClick={() => setShowTimings(!showTimings)}
