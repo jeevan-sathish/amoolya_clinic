@@ -32,8 +32,9 @@ const Main = () => {
             <span className="text-green-400 font-semibold">Amoolya Clinic</span>
           </p>
 
-          <p className="text-gray-400">
-            Expert care by Dr. Shivkumar K (MBBS, CCDM, AFIH)
+          <p className="text-gray-400 text">
+            Expert care by Dr. Shivkumar <br />
+            <span className="text-gray-300"> K (MBBS, CCDM, AFIH)</span>
           </p>
 
           {/* Buttons */}
@@ -49,7 +50,7 @@ const Main = () => {
               href="https://wa.me/917022077342"
               target="_blank"
               rel="noopener noreferrer"
-              className="border w-[400px] border-green-400 text-green-400 hover:bg-green-400 hover:text-black px-6 py-3 rounded-lg font-medium transition"
+              className="border w-[300px] border-green-400 text-green-400 hover:bg-green-400 hover:text-black px-6 py-3 rounded-lg font-medium transition"
             >
               WhatsApp
             </a>
